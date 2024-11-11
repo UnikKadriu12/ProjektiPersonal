@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shërbimet dhe Kontakti - Bli Makinat Brabus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: orange;
+            color: gray;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: burlywood;
+        }
+        section {
+            background: orange;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgb(3, 14, 112);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background:orange;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        #contact a{
+            color: rgb(3, 14, 112);
+        }
+
+
+
+
+
+
+
+
+/* Stilizimi i përgjithshëm */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: #333;
+}
+
+#contact {
+    padding: 50px 0;
+    background-color: orange;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Stilizimi i karuselit */
+.carousel {
+    position: relative;
+    max-width: 600px;
+    overflow: hidden;
+    display: flex;
+}
+
+.carousel-image {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px;
+}
+    </style>
+
+
+</head>
+<body>
+
+<header>
+    <h1>Bli Makinat Brabus</h1>
+    <nav>
+        <a href="index.html">Kryefaqja</a>
+        <a href="#services">Shërbimet</a>
+        <a href="#contact">Kontakti</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="services">
+        <h2>Shërbimet Tona</h2>
+        <ul>
+            <li><strong>Shërbimi i Blerjes:</strong> Ndihmojmë klientët në çdo hap të procesit të blerjes.</li>
+            <li><strong>Financimi i Makinave:</strong> Ofrimi i mundësive të ndryshme të financimit për blerjen e makinave.</li>
+            <li><strong>Pas Shërbimi:</strong> Ofrimi i shërbimeve të mirëmbajtjes dhe përmirësimeve për makinat e blera.</li>
+            <li><strong>Mbështetje Klientit:</strong> Ekipi ynë është gjithmonë në dispozicion për pyetje dhe ndihmë.</li>
+            <li><strong>Per informata shtese :</strong>Aksionar z.Fatmir Lutolli-38348707080.</li>
+
+        </ul>
+    </section>
+
+    <section id="contact">
+        <section class="intro">
+            <div class="intro-text">
+                <h1>Njihuni me Brabus</h1>
+                <p>Brabus është një nga prodhuesit më prestigjioz të makinave luksoze dhe të modifikuara. Makinat Brabus janë të njohura për performancën e lartë dhe dizajnin e jashtëzakonshëm. Blerja e një Brabus është më shumë se një investim — është një përvojë e vërtetë luksoze!</p>
+            </div>
+            <div class="carousel">
+                <img src="bra1.jpg" alt="Brabus Car" class="carousel-image">
+                <img src="bra2.jpg" alt="Brabus Car" class="carousel-image">
+                <img src="bra3.jpg" alt="Brabus Car" class="carousel-image">
+            </div>
+        </section>
+
+
+        <h2>Kontakti</h2>
+        <p>Na kontaktoni për çdo informacion që ju nevojitet:</p>
+        <p><strong>Email:</strong> <a href="https://www.brabus.com/en-int">info@blimakinatbrabus.com</a></p>
+        <p><strong>Telefoni:</strong> +49 63416 7390</p>
+        <p>Ose plotësoni formularin e kontaktit më poshtë:</p>
+        <form>
+            <label for="name">Emri:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Emaili:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mesazhi:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Dërgo Mesazhin">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Bli Makinat Brabus. Të gjitha të drejtat e rezervuara.</p>
+    
+</footer>
+
+</body>
+</html>
+
